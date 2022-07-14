@@ -179,8 +179,8 @@ if(PICOQUIC_FETCH_PTLS)
     include(FetchContent)
     FetchContent_Declare(
             picotls
-            GIT_REPOSITORY      https://github.com/h2o/picotls.git
-            GIT_TAG             master)
+            GIT_REPOSITORY      https://github.com/paulej/picotls.git
+            GIT_TAG             paulej_fetch_content)
     FetchContent_MakeAvailable(picotls)
 endif()
 
